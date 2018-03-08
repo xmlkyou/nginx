@@ -23,6 +23,6 @@ nginx 安装配置
 2. ./configure,  ./configure --help 查看参数
   1）默认安装路径为 /usr/local/nginx, sbin:可执行程序 conf:配置文件 logs:日志，master进行id，lock文件
   2）--with-pcre 强制使用pcre；--with-openssl
-  示例:./configure  --sbin-path=/usr/local/nginx/nginx --conf-path=/usr/local/nginx/nginx.conf --pid-path=/usr/local/nginx/nginx.pid --with-http_ssl_module --with-pcre=/usr/local/src/pcre-8.39 --with-zlib=/usr/local/src/zlib-1.2.8 --with-openssl=/usr/local/src/openssl-1.1.0c
+   示例:./configure  --sbin-path=/usr/local/nginx/nginx --conf-path=/usr/local/nginx/nginx.conf --pid-path=/usr/local/nginx/nginx.pid --with-http_ssl_module --with-pcre=/usr/local/src/pcre-8.39 --with-zlib=/usr/local/src/zlib-1.2.8 --with-openssl=/usr/local/src/openssl-1.1.0c
 3. make
 4. make install
