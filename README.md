@@ -26,3 +26,13 @@ nginx 安装配置
    示例:./configure  --sbin-path=/usr/local/nginx/nginx --conf-path=/usr/local/nginx/nginx.conf --pid-path=/usr/local/nginx/nginx.pid --with-http_ssl_module --with-pcre=/usr/local/src/pcre-8.39 --with-zlib=/usr/local/src/zlib-1.2.8 --with-openssl=/usr/local/src/openssl-1.1.0c
 3. make
 4. make install
+//未验证
+./configure --with-zlib=/usr/local/src/zlib-1.2.8
+
+ + using system PCRE library 
+ + OpenSSL library is not used 
+ + using zlib library: /usr/local/src/zlib-1.2.8
+ 
+ prce、zlib默认安装， 需要指定zlib源文件
+
+
