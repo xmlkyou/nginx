@@ -12,3 +12,8 @@ nginx 安装配置
 2. 编译产生的中间文件
 3. 部署目录，存放可执行程序与配置文件
 4. 日志目录
+
+三 linux内核参数优化，/etc/sysctl.conf
+1. file-max  进程同时打开的句柄数
+2. tcp_max_syn_backlog TCP三次握手阶段，SYN请求队列长度
+3. tcp_syncookies  与性能无关，用于解决tcp的syn攻击
