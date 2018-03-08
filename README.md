@@ -22,6 +22,6 @@ nginx 安装配置
 1. 下载安装包
 2. ./configure,  ./configure --help 查看参数
   1）默认安装路径为 /usr/local/nginx, sbin:可执行程序 conf:配置文件 logs:日志，master进行id，lock文件
-  2）--with-pcre 强制使用pcre
+  2）--with-pcre 强制使用pcre；--with-openssl
 3. make
 4. make install
