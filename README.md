@@ -7,3 +7,8 @@ nginx 安装配置
 4. 安装zlib库, yum install -y zlib zlib-devel(二次开发需要的库)
 5. 安装OpenSSL库, yum install -y openssl openssl-devel
 
+二  磁盘目录
+1. 源码目录，包括nginx源码，以及自己所写模块
+2. 编译产生的中间文件
+3. 部署目录，存放可执行程序与配置文件
+4. 日志目录
