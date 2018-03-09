@@ -35,4 +35,5 @@ nginx 安装配置
  
  prce、zlib默认安装， 需要指定zlib源文件
 
-
+问题：
+1） 403，permission denied ：查询error.log文件，资源路径上面的文件夹 是否有读权限，  worker进程以nobody运行，不需要进行修改
