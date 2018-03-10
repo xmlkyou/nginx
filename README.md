@@ -37,4 +37,4 @@ nginx 安装配置
 
 问题：
 1） 403，permission denied ：查询error.log文件，资源路径上面的文件夹 是否有读权限，  worker进程以nobody运行，不需要进行修改
-2)  当访问目录时，nginx会发送301重定向，url末尾会加上/，  但是好像非目录有时也会重定向，尚需实验
+2)  当访问目录时，nginx会发送301重定向，url末尾会加上/，默认server_name_in_redirect off。  但是好像非目录有时也会重定向，尚需实验
