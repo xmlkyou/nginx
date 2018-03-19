@@ -38,3 +38,9 @@ nginx 安装配置
 问题：
 1） 403，permission denied ：查询error.log文件，资源路径上面的文件夹 是否有读权限，  worker进程以nobody运行，不需要进行修改
 2)  当访问目录时，nginx会发送301重定向，url末尾会加上/，默认server_name_in_redirect off。  但是好像非目录有时也会重定向，尚需实验
+
+
+二次开发：
+1）新增xmltest目录
+2）./config --prefix=/home/qadmsom/nginx --with-http_ssl_module --with-pcre=/usr/local/src/pcre-8.39 --with-zlib=/usr/local/src/zlib-1.2.8 --with-openssl=/usr/local/src/openssl-1.1.0c --add-module=/home/qadmsom/xmltest
+
